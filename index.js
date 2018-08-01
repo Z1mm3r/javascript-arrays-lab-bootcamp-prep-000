@@ -2,5 +2,5 @@
 
 function destructivelyAppendKitten(name)
 {
-  return kitten.push(name);
+  return kittens.push(name);
 }
