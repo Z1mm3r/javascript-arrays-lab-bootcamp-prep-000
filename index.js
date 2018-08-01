@@ -26,3 +26,11 @@ function appendKitten(name)
   temp = [...kittens,name];
   return temp;
 }
+
+
+function prependKitten(name)
+{
+  var temp = [];
+  temp = [name, ...kittens];
+  return temp;
+}
